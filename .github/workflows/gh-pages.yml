@@ -28,4 +28,4 @@ jobs:
           #   keep_files: true
           user_name: primetzvan
           user_email: vaniprimetz@gmail.com
-          publish_branch: master
+          publish_branch: gh-pages
