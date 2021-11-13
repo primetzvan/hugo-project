@@ -159,6 +159,10 @@ body {
   margin-top: 27vh;
 }
 
+img{
+  max-width: 55%;
+}
+
 .img{
   margin: 5vh 25%;
 }
