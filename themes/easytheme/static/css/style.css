@@ -99,7 +99,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  opacity: 100%;
   text-align: center;
 }
 
@@ -108,11 +108,11 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffffff;
 }
 
 .footer-li {
-  float: left ;
+  float: right ;
+  background-color: white;
 }
 
 .footer-li .footer-a {
