@@ -1,42 +1,43 @@
 baseURL: 'https://primetzvan.github.io/hugo-project/'
+#baseURL: 'http://example.org/'
 languageCode: 'de-DE'
 title: 'Leodatabaselearner'
 theme: easytheme
 menu:
   main:
     - name: Installation
-      url: /posts/installation
+      url: /docs/installation
       weight: 1
     - name: Project Infos
-      url: /posts/backgroundInfo
+      url: /docs/backgroundInfo
       weight: 1
     - name: About
-      url: /posts/about
+      url: /docs/about
       weight: 1
   refpa:
     - name: Start
       url: /
       weight: 3
     - name: Installation
-      url: /posts/installation
+      url: /docs/installation
       weight: 2
     - name: Project Infos
-      url: /posts/backgroundInfo
+      url: /docs/backgroundInfo
       weight: 2
     - name: About
-      url: /posts/about
+      url: /docs/about
       weight: 1
   footer:
     - name: Installation
-      url: /posts/installation
+      url: /docs/installation
       weight: 1
     - name: Project Infos
-      url: /posts/backgroundInfo
+      url: /docs/backgroundInfo
       weight: 1
     - name: About
-      url: /posts/about
+      url: /docs/about
       weight: 1
   button:
     - name: Read More
-      url: /posts/backgroundInfo
+      url: /docs/backgroundInfo
       weight: 1
