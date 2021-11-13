@@ -18,6 +18,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          external_repository: hugo-project/primetzvan.github.io
           personal_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
           user_name: primetzvan
