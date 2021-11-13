@@ -63,21 +63,23 @@ docker-compose down
 Click on "+" in the database window. Then select the following (as shown in the picture)
 and create 2 PostgreSQL databases:
 
-image::startdb01.png[]
+![startdb01](../img/startdb01.png)
 
 *Studentdb*
 
 So make sure that everything looks exactly like this and the password is *app*.
 Then test the connection and if everything works it should look like the picture.
 
-image::startdb02.png[]
+![startdb02](../img/startdb02.png)
 
 *Operativedb*
 
 So make sure that everything looks exactly like this and the password is *app*.
 Then test the connection and if everything works it should look like the picture.
 
-image::startdb03.png[]
+
+![startdb03](../img/startdb03.png)
+
 
 
 If you have updated the docker-compose and nothing changed try this:
