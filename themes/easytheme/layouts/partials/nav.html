@@ -1,0 +1,8 @@
+<ul class="menu-ul">
+  {{ range .Site.Menus.refpa.ByWeight }}
+  <li class="menu-li">
+    <a class="menu-a" href="{{.URL}}">{{ .Name }}</a>
+  </li>
+  {{end}}
+</ul>
+

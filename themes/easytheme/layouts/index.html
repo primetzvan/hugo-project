@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> {{ .Site.Title}} </title>
+  <link rel="stylesheet" href='{{ absURL "css/style.css" }}'>
+</head>
+<body>
+<ul class="menu-ul">
+  {{ range .Site.Menus.main }}
+  <li class="menu-li">
+    <a class="menu-a" href="{{.URL}}">{{ .Name }}</a>
+  </li>
+  {{end}}
+</ul>
+
+<div id="flex">
+  <div id="left">
+    <h1 class="title">{{ .Site.Title}}</h1>
+
+    <p id="text">
+      {{.Params.Text}}
+    </p>
+    {{ range .Site.Menus.button }}
+    <a href="{{.URL}}"><button id="button" style="vertical-align:middle" type="button"><span>{{ .Name }}</span></button></a>
+    {{end}}
+  </div>
+
+  <div id="right">
+    <img id="logo" src="/img/Logo.png" alt="Logo">
+  </div>
+
+</div>
+{{- partial "footer.html" . -}}
+</body>
+</html>

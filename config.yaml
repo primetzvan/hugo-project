@@ -1,0 +1,42 @@
+baseURL: 'http://example.org/'
+languageCode: 'de-DE'
+title: 'Leodatabaselearner'
+theme: easytheme
+menu:
+  main:
+    - name: Installation
+      url: /posts/installation
+      weight: 1
+    - name: Project Infos
+      url: /posts/backgroundInfo
+      weight: 1
+    - name: About
+      url: /posts/about
+      weight: 1
+  refpa:
+    - name: Start
+      url: /
+      weight: 3
+    - name: Installation
+      url: /posts/installation
+      weight: 2
+    - name: Project Infos
+      url: /posts/backgroundInfo
+      weight: 2
+    - name: About
+      url: /posts/about
+      weight: 1
+  footer:
+    - name: Installation
+      url: /posts/installation
+      weight: 1
+    - name: Project Infos
+      url: /posts/backgroundInfo
+      weight: 1
+    - name: About
+      url: /posts/about
+      weight: 1
+  button:
+    - name: Read More
+      url: /posts/backgroundInfo
+      weight: 1

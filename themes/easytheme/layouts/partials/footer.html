@@ -1,0 +1,9 @@
+<div class="footer">
+  <ul class="footer-ul">
+    {{ range .Site.Menus.footer}}
+    <li class="footer-li">
+      <a class="footer-a" href="{{.URL}}" role="button">{{.Name}}</a>
+    </li>
+    {{end}}
+  </ul>
+</div>
