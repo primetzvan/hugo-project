@@ -63,14 +63,14 @@ docker-compose down
 Click on "+" in the database window. Then select the following (as shown in the picture)
 and create 2 PostgreSQL databases:
 
-![startdb01](..img/startdb01.png)
+![startdb01](https://primetzvan.github.io/hugo-project/img/startdb01.png)
 
 *Studentdb*
 
 So make sure that everything looks exactly like this and the password is *app*.
 Then test the connection and if everything works it should look like the picture.
 
-![startdb02](..img/startdb02.png)
+![startdb02](https://primetzvan.github.io/hugo-project/img/startdb02.png)
 
 *Operativedb*
 
@@ -78,7 +78,7 @@ So make sure that everything looks exactly like this and the password is *app*.
 Then test the connection and if everything works it should look like the picture.
 
 
-![startdb03](..img/startdb03.png)
+![startdb03](https://primetzvan.github.io/hugo-project/img/startdb03.png)
 
 
 
