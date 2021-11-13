@@ -1,4 +1,4 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://primetzvan.github.io/hugo-project/'
 languageCode: 'de-DE'
 title: 'Leodatabaselearner'
 theme: easytheme
