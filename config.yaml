@@ -7,10 +7,13 @@ menu:
   main:
     - name: Installation
       url: /docs/installation
-      weight: 1
+      weight: 3
     - name: Project Infos
       url: /docs/backgroundInfo
-      weight: 1
+      weight: 3
+    - name: Sprints
+      url: /docs/sprints
+      weight: 2
     - name: About
       url: /docs/about
       weight: 1
@@ -23,6 +26,9 @@ menu:
       weight: 2
     - name: Project Infos
       url: /docs/backgroundInfo
+      weight: 2
+    - name: Sprints
+      url: /docs/sprints
       weight: 2
     - name: About
       url: /docs/about
