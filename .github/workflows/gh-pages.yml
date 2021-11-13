@@ -24,7 +24,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: primetzvan/primetzvan.github.io
+          external_repository: hugo-project/primetzvan.github.io
           publish_dir: ./public
           #   keep_files: true
           user_name: primetzvan
