@@ -9,9 +9,9 @@ docker-compose -f docker-compose-volume.yml up --build -d
 </code></pre><p>or you can use a script</p><pre><code>run-db.bat
 </code></pre><h5 id=stop-db-1>stop db</h5><pre><code>docker-compose down
 </code></pre><p>Click on &ldquo;+&rdquo; in the database window. Then select the following (as shown in the picture)
-and create 2 PostgreSQL databases:</p><p>image::startdb01.png[]</p><p><em>Studentdb</em></p><p>So make sure that everything looks exactly like this and the password is <em>app</em>.
-Then test the connection and if everything works it should look like the picture.</p><p>image::startdb02.png[]</p><p><em>Operativedb</em></p><p>So make sure that everything looks exactly like this and the password is <em>app</em>.
-Then test the connection and if everything works it should look like the picture.</p><p>image::startdb03.png[]</p><p>If you have updated the docker-compose and nothing changed try this:</p><pre><code>docker-compose up --build
+and create 2 PostgreSQL databases:</p><p><img src=../img/startdb01.png alt=startdb01></p><p><em>Studentdb</em></p><p>So make sure that everything looks exactly like this and the password is <em>app</em>.
+Then test the connection and if everything works it should look like the picture.</p><p><img src=../img/startdb02.png alt=startdb02></p><p><em>Operativedb</em></p><p>So make sure that everything looks exactly like this and the password is <em>app</em>.
+Then test the connection and if everything works it should look like the picture.</p><p><img src=../img/startdb03.png alt=startdb03></p><p>If you have updated the docker-compose and nothing changed try this:</p><pre><code>docker-compose up --build
 docker-compose down
 docker volume prune
 </code></pre><h3 id=backend>Backend</h3><p>Check if you are in the backend folder.</p><pre><code>~/leo-database-learner/leo-database-learner-project
@@ -19,4 +19,4 @@ docker volume prune
 </code></pre><h3 id=frontend>Frontend</h3><p>Check if you are in the frontend folder.</p><pre><code>~/leo-database-learner/leo-database-learner-frontend
 </code></pre><p>To start the backend project enter following code into the terminal:</p><pre><code>npm install
 </code></pre><pre><code>ng serve --open
-</code></pre></div></p><img class=img src=img/Systemarchitectur.PNG alt=img></div></div><div class=footer><ul class=footer-ul><li class=footer-li><a class=footer-a href=/hugo-project/docs/about role=button>About</a></li><li class=footer-li><a class=footer-a href=/hugo-project/docs/installation role=button>Installation</a></li><li class=footer-li><a class=footer-a href=/hugo-project/docs/backgroundinfo role=button>Project Infos</a></li></ul></div></body></html>
+</code></pre></div></p><img class=img src=https://primetzvan.github.io/img/Systemarchitectur.PNG alt=img></div></div><div class=footer><ul class=footer-ul><li class=footer-li><a class=footer-a href=/hugo-project/docs/about role=button>About</a></li><li class=footer-li><a class=footer-a href=/hugo-project/docs/installation role=button>Installation</a></li><li class=footer-li><a class=footer-a href=/hugo-project/docs/backgroundinfo role=button>Project Infos</a></li></ul></div></body></html>
