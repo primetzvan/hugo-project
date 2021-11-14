@@ -1,21 +1,14 @@
+*,h1,h2,ul,p{
+  font-family: monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+}
+
 body {
   background-color: white;
   background-repeat: no-repeat;
   height:100vh;
-}
-
-table, td, th {
-  border: 1px solid #ddd;
-  text-align: left;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  padding: 15px;
 }
 
 #flex{
@@ -60,11 +53,13 @@ th, td {
 }
 
 .title{
-  margin: 25vh 25vh 0 35vh;
+  margin: 25vh 25vh 0 32vh;
+  font-size: 160%;
 }
 
 #text{
-  margin: 10vh 20vh;
+  margin: 10vh 15vh;
+  font-size: 75%;
 }
 
 #button {
@@ -160,7 +155,7 @@ th, td {
   text-align: center;
   padding-top: 22vh;
   color: white;
-  font-size: xxx-large;
+  font-size: 275%;
 }
 
 .contentText{
