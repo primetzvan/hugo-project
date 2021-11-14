@@ -1,8 +1,21 @@
 body {
-  /*background-image: linear-gradient(to right top, rgba(73, 185, 165, 0.32), rgba(0, 153, 170, 0.35), rgba(0, 118, 164, 0.46), rgba(34, 80, 139, 0.63), #452860);*/
   background-color: white;
   background-repeat: no-repeat;
   height:100vh;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
 }
 
 #flex{

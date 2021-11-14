@@ -11,6 +11,9 @@ menu:
     - name: Project Infos
       url: /docs/backgroundInfo
       weight: 2
+    - name: Sprints
+      url: /docs/sprints
+      weight: 1
     - name: About
       url: /docs/about
       weight: 1
@@ -24,6 +27,9 @@ menu:
     - name: Project Infos
       url: /docs/backgroundInfo
       weight: 2
+    - name: Sprints
+      url: /docs/sprints
+      weight: 1
     - name: About
       url: /docs/about
       weight: 1
