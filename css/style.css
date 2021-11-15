@@ -11,6 +11,11 @@ body {
   height:100vh;
 }
 
+#flex{
+  display: flex;
+  flex-wrap:wrap;
+}
+
 .menu-ul {
   list-style-type: none;
   margin: 0;
@@ -38,6 +43,63 @@ body {
 .menu-li .menu-a.active {
   color: white;
   background-color: #e0e0e0;
+}
+
+#logo {
+  position: absolute;
+  top: 25%;
+  right: 30vh;
+  height: 50vh;
+}
+
+.title{
+  margin: 25vh 25vh 0 32vh;
+  font-size: 160%;
+}
+
+#text{
+  margin: 10vh 15vh;
+  font-size: 75%;
+}
+
+#button {
+  margin: 0vh 38vh;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #891b44;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 30vh;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button:hover span {
+  padding-right: 25px;
+}
+
+#button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .footer {
@@ -107,6 +169,10 @@ body {
 
 img{
   max-width: 55%;
+}
+
+.img{
+  margin: 5vh 25%;
 }
 
 .memberimg{
