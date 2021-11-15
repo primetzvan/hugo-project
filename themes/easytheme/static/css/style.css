@@ -5,6 +5,10 @@ h1,h2,h3,ul,p{
   font-variant: normal;
 }
 
+h1{
+  font-size: 275%;
+}
+
 h2{
   font-size: 225%;
 }
@@ -186,4 +190,21 @@ img{
 .memberimg{
   margin: 2vh 0 5vh 5vh;
   width: 10%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #452860;
+  color: white;
 }
