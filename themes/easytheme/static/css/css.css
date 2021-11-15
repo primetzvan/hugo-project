@@ -1,9 +1,10 @@
-*{
+* {
   font-family: monospace;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
 }
+
 body {
   background-color: white;
 }
@@ -14,185 +15,204 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  }
+}
 
-  .left {
-    width: 50%;
-    height: 50vh;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
+.left {
+  width: 50%;
+  height: 50vh;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-  .title {
-    font-size: 200%;
-  }
+.title {
+  font-size: 200%;
+}
 
-  #text {
-    font-size: 75%;
-    text-align: center;
-  }
+#text {
+  font-size: 75%;
+  text-align: center;
+}
 
-  .right {
-    max-width: 50%;
-    height: 50vh;
-    padding-left: 6vh;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
+.right {
+  max-width: 50%;
+  height: 50vh;
+  padding-left: 6vh;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-  #logo {
-    height: 50vh;
-  }
+#logo {
+  height: 50vh;
+}
 
-  .menu-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-  .menu-li {
-    float: right;
-  }
+th, td {
+  text-align: left;
+  padding: 8px;
+}
 
-  .menu-li .menu-a {
-    display: block;
-    color: #313131;
-    text-align: center;
-    padding: 26px 32px;
-    text-decoration: none;
-  }
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
 
-  .menu-li .menu-a:hover:not(.active) {
-    background-color: rgba(194, 189, 189, 0.49);
-  }
+th {
+  background-color: #452860;
+  color: white;
+}
 
-  .menu-li .menu-a.active {
-    color: white;
-    background-color: #e0e0e0;
-  }
+.menu-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
 
-  #button {
-    margin: 0vh 38vh;
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #891b44;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 30vh;
-    transition: all 0.5s;
-    cursor: pointer;
-  }
+.menu-li {
+  float: right;
+}
 
-  #button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+.menu-li .menu-a {
+  display: block;
+  color: #313131;
+  text-align: center;
+  padding: 26px 32px;
+  text-decoration: none;
+}
 
-  #button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
+.menu-li .menu-a:hover:not(.active) {
+  background-color: rgba(194, 189, 189, 0.49);
+}
 
-  #button:hover span {
-    padding-right: 25px;
-  }
+.menu-li .menu-a.active {
+  color: white;
+  background-color: #e0e0e0;
+}
 
-  #button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+#button {
+  margin: 0vh 38vh;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #891b44;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 30vh;
+  transition: all 0.5s;
+  cursor: pointer;
+}
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    opacity: 100%;
-    text-align: center;
-  }
+#button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-  .footer-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+#button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-  .footer-li {
-    float: right;
-    background-color: white;
-  }
+#button:hover span {
+  padding-right: 25px;
+}
 
-  .footer-li .footer-a {
-    display: block;
-    color: #313131;
-    text-align: center;
-    padding: 26px 32px;
-    text-decoration: none;
-  }
+#button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
-  .footer-li .footer-a:hover:not(.active) {
-    background-color: rgba(194, 189, 189, 0.49);
-  }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 100%;
+  text-align: center;
+}
 
-  .menu-li .menu-a.active {
-    color: white;
-    background-color: #e0e0e0;
-  }
+.footer-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  #content {
-    margin-top: 0;
-    background-image: url("https://primetzvan.github.io/hugo-project/img/head.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+.footer-li {
+  float: right;
+  background-color: white;
+}
 
-  .subTitle {
-    margin: 0;
-    text-align: center;
-    padding-top: 22vh;
-    color: white;
-    font-size: 275%;
-  }
+.footer-li .footer-a {
+  display: block;
+  color: #313131;
+  text-align: center;
+  padding: 26px 32px;
+  text-decoration: none;
+}
 
-  .contentText {
-    margin-left: 10vh;
-    margin-bottom: 10vh;
-  }
+.footer-li .footer-a:hover:not(.active) {
+  background-color: rgba(194, 189, 189, 0.49);
+}
 
-  .subText {
-    margin-top: 27vh;
-  }
+.menu-li .menu-a.active {
+  color: white;
+  background-color: #e0e0e0;
+}
 
-  .img {
-    max-width: 55%;
-  }
+#content {
+  margin-top: 0;
+  background-image: url("https://primetzvan.github.io/hugo-project/img/head.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-  .img {
-    margin: 5vh 25%;
-  }
+.subTitle {
+  margin: 0;
+  text-align: center;
+  padding-top: 22vh;
+  color: white;
+  font-size: 275%;
+}
 
-  .memberimg {
-    margin: 2vh 0 5vh 5vh;
-    width: 10%;
-  }
+.contentText {
+  margin-left: 10vh;
+  margin-bottom: 10vh;
+}
+
+.subText {
+  margin-top: 27vh;
+}
+
+.img {
+  max-width: 55%;
+}
+
+.img {
+  margin: 5vh 25%;
+}
+
+.memberimg {
+  margin: 2vh 0 5vh 5vh;
+  width: 10%;
+}
